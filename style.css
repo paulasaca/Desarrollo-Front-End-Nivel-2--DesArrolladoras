@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color:#242933 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form {
+    width: 400px;
+    background:  #2f3644;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 6px;
+    font-family: system-ui;
+    border: 3px solid #3e445b;
+    align-self: center;
+  }
+  
+  .createaccount {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color:#95a1c4
+  }
+
+  .names {
+    text-align: left;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    color:#95a1c4
+  }
+  
+  
+input {
+    width: 100%;
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 2px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: black;
+    z-index: 1;
+  }
+  
+img{
+  position: absolute;
+  align-self: flex-end;
+  transform: translateX(-180%) translateY(55%);
+   }
+
+  
+button {
+    width: 100%;
+    background: #6c63ff;
+    border: none;
+    padding: 12px;
+    color: white ;
+    margin: 16px 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+p{
+  color:red;
+  font-size: 12px;
+}
